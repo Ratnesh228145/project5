@@ -1,0 +1,73 @@
+body{
+   background-color: yellow;
+   
+}
+header{
+    display: flex;
+padding: 40px;
+gap: 170px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+width: 250px;
+display: flex;
+}
+   
+                
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    color: red;
+}
+.contact{
+    position: absolute;
+    display: flex;
+    gap: 60px;
+    color: brown;
+    right: 20px;
+    border: 500px ;
+    padding: 10px 30px;
+    background-color: rgb(57, 44, 146);
+}
+.content h1{
+    font-family: 'Righteous', cursive;
+    
+     padding: 12px 60 px;
+    font-size: 60px;
+   margin-right: 900px;
+   margin-top: 80px;
+}
+.content p{
+   flex-wrap: wrap;
+}
+.micro{
+    position: absolute;
+    border-radius: 8px;
+    padding: 40px 50px 40px 50px;
+    width: 600px;
+    right: 5px;
+    margin-top: 10px;
+}
+.service{
+    align-items: center;
+    left: 60px;
+    padding: 8px 16px;
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    background-color: rgb(37, 33, 130);
+    width: 85px;
+}
